@@ -138,42 +138,17 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\NCommon.EntityFramework\src\NCommon.EntityFramework.csproj">
-      <Project>{98FB0800-6605-4FD9-9948-36D11C744881}</Project>
-      <Name>NCommon.EntityFramework %28src\NCommon.EntityFramework%29</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\NCommon.LinqToSql\src\NCommon.LinqToSql.csproj">
-      <Project>{2781A661-3EA8-4917-B043-F3193FB0F7C8}</Project>
-      <Name>NCommon.LinqToSql %28src\NCommon.LinqToSql%29</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\NCommon.NHibernate\src\NCommon.NHibernate.csproj">
-      <Project>{01A6D2F9-C34E-4D87-BE7A-4F36A78BED66}</Project>
-      <Name>NCommon.NHibernate %28src\NCommon.NHibernate%29</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\NCommon\src\NCommon.csproj">
       <Project>{C853736D-3576-468A-A716-ACEC1CD4FAC1}</Project>
       <Name>NCommon</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NCommon.ContainerAdapter.Autofac\NCommon.ContainerAdapter.Autofac.csproj">
-      <Project>{CB2938EE-A72C-49EA-9DFB-C648CC9C600E}</Project>
-      <Name>NCommon.ContainerAdapter.Autofac</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NCommon.ContainerAdapter.CastleWindsor\NCommon.ContainerAdapter.CastleWindsor.csproj">
-      <Project>{27A25205-349C-425E-836F-C1EB160DC2C2}</Project>
-      <Name>NCommon.ContainerAdapter.CastleWindsor</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\NCommon.ContainerAdapter.NInject\NCommon.ContainerAdapter.Ninject.csproj">
-      <Project>{7D439D38-9B0B-4E6B-A6A4-F37DF7208569}</Project>
-      <Name>NCommon.ContainerAdapter.Ninject</Name>
     </ProjectReference>
     <ProjectReference Include="..\NCommon.ContainerAdapter.StructureMap\NCommon.ContainerAdapter.StructureMap.csproj">
       <Project>{6C81E97F-D2F6-4306-AC65-5486F6F0E7B6}</Project>
       <Name>NCommon.ContainerAdapter.StructureMap</Name>
     </ProjectReference>
-    <ProjectReference Include="..\NCommon.ContainerAdapter.Unity\NCommon.ContainerAdapter.Unity.csproj">
-      <Project>{758EB68B-FE27-4AC8-8098-D4293F1CE4F9}</Project>
-      <Name>NCommon.ContainerAdapter.Unity</Name>
-    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

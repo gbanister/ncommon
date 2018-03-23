@@ -66,13 +66,12 @@
       <Project>{0F54234D-745A-46F3-B813-ED99C1498633}</Project>
       <Name>NCommon.Tests</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\src\NCommon.Mvc.csproj">
-      <Project>{B91AA59B-3635-4A59-B177-FF902386F837}</Project>
-      <Name>NCommon.Mvc</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

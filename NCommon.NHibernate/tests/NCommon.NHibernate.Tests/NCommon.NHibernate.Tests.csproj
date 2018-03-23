@@ -142,17 +142,9 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\..\NCommon.Testing\NCommon.Testing.csproj">
-      <Project>{AC96FD87-C53C-4833-8DD8-4774E36F0E4A}</Project>
-      <Name>NCommon.Testing</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\..\NCommon\src\NCommon.csproj">
       <Project>{C853736D-3576-468A-A716-ACEC1CD4FAC1}</Project>
       <Name>NCommon</Name>
-    </ProjectReference>
-    <ProjectReference Include="..\..\src\NCommon.NHibernate.csproj">
-      <Project>{01A6D2F9-C34E-4D87-BE7A-4F36A78BED66}</Project>
-      <Name>NCommon.NHibernate %28src\NCommon.NHibernate%29</Name>
     </ProjectReference>
     <ProjectReference Include="..\NCommon.NHibernate.Tests.HRDomain\NCommon.NHibernate.Tests.HRDomain.csproj">
       <Project>{0CB980C0-269C-4A52-9E15-1226B343AD5E}</Project>
@@ -162,6 +154,9 @@
       <Project>{6FE3005E-FFA1-4DE7-BC47-995D53CFB9CB}</Project>
       <Name>NCommon.NHibernate.Tests.OrdersDomain</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -18,3 +18,7 @@ output
 packages/*
 Sample/*/packages/*
 *.LDF
+.vs/NCommon Everything/v15/Server/sqlite3/storage.ide-wal
+.vs/NCommon Everything/v15/Server/sqlite3/storage.ide-shm
+.vs/NCommon Everything/v15/Server/sqlite3/storage.ide
+.vs/NCommon Everything/v15/Server/sqlite3/db.lock

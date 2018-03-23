@@ -77,10 +77,6 @@
       <Project>{C853736D-3576-468A-A716-ACEC1CD4FAC1}</Project>
       <Name>NCommon</Name>
     </ProjectReference>
-    <ProjectReference Include="..\..\src\NCommon.NHibernate.csproj">
-      <Project>{01A6D2F9-C34E-4D87-BE7A-4F36A78BED66}</Project>
-      <Name>NCommon.NHibernate %28src\NCommon.NHibernate%29</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
